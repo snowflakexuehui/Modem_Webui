@@ -2,8 +2,6 @@
 
 一个基于 Ant Design Pro 的 5G 模组管理 Web 界面，提供网络状态监控、配置管理、短信收发等功能。
 
-![Dashboard](https://raw.githubusercontent.com/snowflakexuehui/Modem_Webui/master/images/1.png)
-
 ## 📋 目录
 
 - [功能特性](#功能特性)
@@ -27,7 +25,7 @@
 - **信号趋势图**: 堆叠图展示 RSRP、SINR、RSRQ 等信号参数的变化趋势
 - **自动刷新**: 支持定时自动刷新数据，可自定义刷新间隔
 
-![Network Status](https://raw.githubusercontent.com/snowflakexuehui/Modem_Webui/master/images/2.png)
+![Dashboard](https://raw.githubusercontent.com/snowflakexuehui/Modem_Webui/master/images/1.png)
 
 ### 🌐 网络管理 (Network)
 
@@ -38,6 +36,8 @@
 - **基本信息**: 显示 SIM 卡号、IMEI（国际移动设备识别码）、ICCID（集成电路卡标识符）、模块电压
 - **网络速度信息**: 支持实时速度监控开关，显示网络速度相关信息
 - **流量统计**: 显示上次连接的连接时长、上传流量、下载流量
+
+![Network Status](https://raw.githubusercontent.com/snowflakexuehui/Modem_Webui/master/images/2.png)
 
 #### 网络配置 (Network Config)
 - **小区锁定配置**: 支持强制 UE 注册到特定小区（单小区锁定），可设置配置、查询当前配置、关闭小区锁定、查询参数范围
@@ -74,7 +74,7 @@
 - **短信列表**: 显示短信列表，支持查看、删除、标记短信
 - **空状态提示**: 当没有短信时，显示友好的空状态提示
 
-![SMS Management](https://raw.githubusercontent.com/snowflakexuehui/Modem_Webui/master/images/5.png)
+![SMS Management](https://raw.githubusercontent.com/snowflakexuehui/Modem_Webui/master/images/7.png)
 
 #### 短信设置 (SMS Settings)
 - **短信功能开关**: 支持启用/禁用短信功能
@@ -123,7 +123,7 @@
 #### 漫游设置
 - **漫游模式**: 支持设置漫游模式（如仅限本地网络）
 
-![Modem Settings](https://raw.githubusercontent.com/snowflakexuehui/Modem_Webui/master/images/7.png)
+![Modem Settings](https://raw.githubusercontent.com/snowflakexuehui/Modem_Webui/master/images/5.png)
 
 ### 🔧 调试工具 (AT Debug)
 - **AT 命令终端**: 提供 AT 命令输入和输出显示区域
